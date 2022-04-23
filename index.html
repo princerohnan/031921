@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="resultText"></h1>
+    <script>
+      
+      let response = prompt(" love na love mo ako? Type Yes or No");
+      let outputText = "";
+      
+      if (response=="Yes"){
+        outputText = "message mo saakin mwuah mwuah";
+      }else if(response=="No"){
+        outputText = "sad na ako";
+      }else{
+        outputText = "please type Yes or No!!";
+      }
+      
+      document.getElementById("resultText").innerHTML = outputText;
+    </script>
+  </body>
+</html>
